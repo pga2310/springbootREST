@@ -1,0 +1,14 @@
+com\restexample\restspringboot\course\Course.class
+com\restexample\restspringboot\student\StudentServices.class
+com\restexample\restspringboot\course\CourseServices.class
+com\restexample\restspringboot\student\StudentInterface.class
+com\restexample\restspringboot\grad\Grad.class
+com\restexample\restspringboot\grad\GradController.class
+com\restexample\restspringboot\student\Student.class
+com\restexample\restspringboot\student\StudentController.class
+com\restexample\restspringboot\root\Root.class
+com\restexample\restspringboot\course\CourseController.class
+com\restexample\restspringboot\RestSpBootApplication.class
+com\restexample\restspringboot\course\CourseInterface.class
+com\restexample\restspringboot\grad\GradInterface.class
+com\restexample\restspringboot\grad\GradServices.class
