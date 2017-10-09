@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: REST-Student
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Pushpak
+Implementation-Vendor-Id: com.db.mysqlspringboot.student
+Build-Jdk: 1.8.0_77
+Implementation-URL: http://projects.spring.io/spring-boot/REST-Student
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
