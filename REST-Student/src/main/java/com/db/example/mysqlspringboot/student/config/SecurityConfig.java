@@ -23,12 +23,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	public void configure(HttpSecurity httpSecurity) throws Exception{
 
 		httpSecurity.authorizeRequests().antMatchers("/students/**").hasRole("USER")
-										.antMatchers("/admin/**").hasRole("ADMIN")
-										.and()
-										.formLogin()  	//.formLogin().loginPage("http://localhost:4200");
-										.failureUrl("/login?error").permitAll()
-										.and()
-										.logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"));
+						.antMatchers("/admin/**").hasRole("ADMIN")
+						.and()
+						.formLogin()  	//.formLogin().loginPage("http://localhost:4200");
+						.failureUrl("/login?error").permitAll()
+						.and()
+						.logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"));
 
 	}
 	
@@ -36,20 +36,21 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	public void configureGlobal(AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception{
 		
 		authenticationManagerBuilder.jdbcAuthentication()
-									.dataSource(dataSource)									
-									.usersByUsernameQuery("select username,password, enabled "
-														 + "from users "
-														 + "where username=?")									
-									.authoritiesByUsernameQuery("select username, role "
-																+ "from user_roles "
-																+ "where username=?");
+					    .dataSource(dataSource)									
+				            .usersByUsernameQuery("select username,password, enabled "
+								 + "from users "
+								 + "where username=?")									
+					    .authoritiesByUsernameQuery("select username, role "
+									+ "from user_roles "
+									+ "where username=?");
 		
 /*
 		 authenticationManagerBuilder.inMemoryAuthentication()
-										.withUser("user").password("password").roles(USER)
-										.and()
-										.withUser("admin").password("admin").roles(USER,ADMIN);
+					.withUser("user").password("password").roles(USER)
+					.and()
+					.withUser("admin").password("admin").roles(USER,ADMIN);
 */
+
 	}
 }
 
