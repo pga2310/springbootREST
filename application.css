@@ -1,0 +1,13 @@
+.application-container {
+  min-height: 100vh;
+}
+.application-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.application-application {
+  width: 428px;
+  height: 1638px;
+  position: relative;
+  border-color: transparent;
+}

@@ -1,0 +1,13 @@
+.application-status1-container {
+  min-height: 100vh;
+}
+.application-status1-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.application-status1-application-status1 {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  border-color: transparent;
+}

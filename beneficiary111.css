@@ -1,0 +1,13 @@
+.beneficiary111-container {
+  min-height: 100vh;
+}
+.beneficiary111-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.beneficiary111-beneficiary11 {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  border-color: transparent;
+}

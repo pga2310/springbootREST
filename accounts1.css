@@ -1,0 +1,13 @@
+.accounts1-container {
+  min-height: 100vh;
+}
+.accounts1-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.accounts1-accounts1 {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  border-color: transparent;
+}

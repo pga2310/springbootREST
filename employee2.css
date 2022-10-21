@@ -1,0 +1,13 @@
+.employee2-container {
+  min-height: 100vh;
+}
+.employee2-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.employee2-employee2 {
+  width: 428px;
+  height: 1135px;
+  position: relative;
+  border-color: transparent;
+}

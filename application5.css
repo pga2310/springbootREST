@@ -1,0 +1,20 @@
+.application5-container {
+  min-height: 100vh;
+}
+.application5-application5 {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  border-color: transparent;
+}
+.application5-dummy-container {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 900px;
+}
+@media(max-width: 767px) {
+  .application5-application5 {
+    width: 766px;
+    height: 1864px;
+  }
+}
