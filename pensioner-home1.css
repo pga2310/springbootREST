@@ -1,0 +1,13 @@
+.pensioner-home1-container {
+  min-height: 100vh;
+}
+.pensioner-home1-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.pensioner-home1-pensioner-home1 {
+  width: 428px;
+  height: 1292px;
+  position: relative;
+  border-color: transparent;
+}

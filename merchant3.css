@@ -1,0 +1,13 @@
+.merchant3-container {
+  min-height: 100vh;
+}
+.merchant3-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.merchant3-merchant3 {
+  width: 428px;
+  height: 1356px;
+  position: relative;
+  border-color: transparent;
+}

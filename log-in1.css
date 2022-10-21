@@ -1,0 +1,13 @@
+.log-in1-container {
+  min-height: 100vh;
+}
+.log-in1-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.log-in1-log-in1 {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  border-color: transparent;
+}

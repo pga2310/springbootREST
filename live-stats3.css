@@ -1,0 +1,13 @@
+.live-stats3-container {
+  min-height: 100vh;
+}
+.live-stats3-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.live-stats3-live-stats3 {
+  width: 428px;
+  height: 988px;
+  position: relative;
+  border-color: transparent;
+}

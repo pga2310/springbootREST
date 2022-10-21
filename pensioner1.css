@@ -1,0 +1,13 @@
+.pensioner1-container {
+  min-height: 100vh;
+}
+.pensioner1-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.pensioner1-pensioner1 {
+  width: 428px;
+  height: 1642px;
+  position: relative;
+  border-color: transparent;
+}

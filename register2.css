@@ -1,0 +1,13 @@
+.register2-container {
+  min-height: 100vh;
+}
+.register2-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.register2-register2 {
+  width: 428px;
+  height: 1084px;
+  position: relative;
+  border-color: transparent;
+}

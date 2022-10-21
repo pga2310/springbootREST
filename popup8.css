@@ -1,0 +1,13 @@
+.popup8-container {
+  min-height: 100vh;
+}
+.popup8-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.popup8-popup8 {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  border-color: transparent;
+}

@@ -1,0 +1,13 @@
+.merchant-home2-container {
+  min-height: 100vh;
+}
+.merchant-home2-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.merchant-home2-merchant-home2 {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  border-color: transparent;
+}

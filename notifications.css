@@ -1,0 +1,13 @@
+.notifications-container {
+  min-height: 100vh;
+}
+.notifications-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.notifications-notifications {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  border-color: transparent;
+}

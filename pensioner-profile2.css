@@ -1,0 +1,13 @@
+.pensioner-profile2-container {
+  min-height: 100vh;
+}
+.pensioner-profile2-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.pensioner-profile2-pensioner-profile2 {
+  width: 428px;
+  height: 926px;
+  position: relative;
+  border-color: transparent;
+}
